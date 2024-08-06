@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>I Lofu Some Tofu - Home</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="nav-container">
+        <div class="title">
+            <div class="icon" style="background-image: url(./assets/logo.png);"></div>
+            <h1>I Lofu Some Tofu</h1>
+        </div>
+        <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="profle.html">Our Profile</a>
+            <a href="#message-us">Message Us</a>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <div class="header">
+        <h1 id="welcome-message">Hi User, Welcome To Our Website</h1>
+        <p>Discover the finest tofu varieties. From silky smooth to hearty firm, we offer quality and flavor in every bite. Join our community for cooking demos and tasting events. Start your tofu love affair today!</p>
+        <img src="./assets/1.jpg" alt="tofu">
+    </div>
+
+    <!-- Headquarter Section -->
+    <div class="headquarter">
+        <h2>Our Headquarters</h2>
+        <div class="headquarter-container">
+            <div class="headquarter-content">
+                <img src="./assets/jakarta.jpg" alt="Head Quarters">
+                <span>Jakarta</span>
+            </div>
+            <div class="headquarter-content">
+                <img src="./assets/bandung.jpg" alt="Head Quarters">
+                <span>Bandung</span>
+            </div>
+            <div class="headquarter-content">
+                <img src="./assets/medan.jpeg" alt="Head Quarters">
+                <span>Medan</span>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="message-us" class="message-us">
+        <h2>Message Us</h2>
+        <div class="message-content">
+            <div class="message-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date"><br><br>
+                    
+                    <div class="gender-container">
+                        <label for="gender">Gender:</label>
+                        <br><br>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        
+                    </div>
+                    
+                    <label for="message" style="display: flex; text-align: left;">Message:</label>
+                    <textarea id="message" name="message" rows="6" cols="50"></textarea><br><br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+            <!-- info box -->
+            <div class="message-info-box">
+                <div id="messageInfo"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Created by Robby William Irvine Hutabarat</p>
+    </footer>
+
+
+</body>
+</html>
